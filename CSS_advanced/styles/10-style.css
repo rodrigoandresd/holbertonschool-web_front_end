@@ -26,7 +26,7 @@ a {
 }
 
 .section-header {
-    text-align: var(section-header-align);
+    text-align: var(--section-header-align);
 }
 
 h1, h2, h3, h4, h5, h6 {
