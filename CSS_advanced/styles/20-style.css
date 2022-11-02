@@ -58,9 +58,9 @@ ul.row {
 }
 
 .row::after {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .col-1-3 {
